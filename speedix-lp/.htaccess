@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Input your ID and Password."
+AuthUserFile /home/yisweb/speedixweb.site/public_html/speedix-lp/.htpasswd
+require valid-user

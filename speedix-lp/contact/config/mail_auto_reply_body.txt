@@ -1,0 +1,46 @@
+{$name.value} 様
+
+この度は「Speedixのサービス」へ
+お問い合せ頂き誠にありがとうございました。
+改めて担当者よりご連絡をさせていただきます。
+
+
+─ご送信内容の確認─────────────────
+
+{if:$name.value}
+お名前 = {$name.value}
+{/if:$name.value}
+{if:$furigana.value}
+フリガナ = {$furigana.value}
+{/if:$furigana.value}
+{if:$company.value}
+会社名 = {$company.value}
+{/if:$company.value}
+{if:$email.value}
+メールアドレス = {$email.value}
+{/if:$email.value}
+{if:$phone.value}
+電話番号 = {$phone.value}
+{/if:$phone.value}
+{if:$type.value}
+種別 = {$type.value}
+{/if:$type.value}
+{if:$plan.value}
+プラン = {$plan.value}
+{/if:$plan.value}
+{if:$message.value}
+お問い合わせ内容 = {$message.value.nl2br}
+{/if:$message.value}
+
+──────────────────────────
+
+このメールに心当たりの無い場合は、お手数ですが
+下記連絡先までお問い合わせください。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Yis株式会社
+〒231-0062
+神奈川県横浜市中区桜木町1丁目101-1 クロスゲート7F
+TEL / 050-1721-3738
+https://yis-web.com/
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

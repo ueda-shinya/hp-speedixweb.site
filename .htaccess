@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+AuthUserFile "/home/yisweb/speedixweb.site/htpasswd/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user

@@ -1,0 +1,1 @@
+[27-Dec-2025 10:25:07 Asia/Tokyo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/yisweb/speedixweb.site/public_html/speedix-lp/contact/lib/TransmitMail.php on line 606
