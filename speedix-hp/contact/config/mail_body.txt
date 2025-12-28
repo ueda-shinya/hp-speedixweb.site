@@ -1,0 +1,12 @@
+お問い合わせフォームよりメールが送信されました。
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+お名前 = {$name.value}
+フリガナ = {$furigana.value}
+会社名 = {$company.value}
+メールアドレス = {$user_email.value}
+電話番号 = {$phone.value}
+プラン = {$plan.value}
+お問い合わせ内容 = {$message.value.nl2br}
+

@@ -1,0 +1,17 @@
+# PHP設定
+#php_flag display_errors Off
+#php_flag log_errors On
+
+# セキュリティヘッダー
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# インデックスファイル
+DirectoryIndex index.php
+
+# エラーページ
+ErrorDocument 404 /form1/index.php
+ErrorDocument 403 /form1/index.php
